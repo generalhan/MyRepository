@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0"
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>login</servlet-name>
+    <servlet-class>login</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>register</servlet-name>
+    <servlet-class>register</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>forgetPassword</servlet-name>
+    <servlet-class>forgetPassword</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>messageManagerment</servlet-name>
+    <servlet-class>messageManagerment</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>orderManagement</servlet-name>
+    <servlet-class>orderManagement</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>uploadApp</servlet-name>
+    <servlet-class>uploadApp</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>createTest</servlet-name>
+    <servlet-class>createTest</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>createTest2</servlet-name>
+    <servlet-class>createTest2</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>appDescription</servlet-name>
+    <servlet-class>appDescription</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>mytest</servlet-name>
+    <servlet-class>mytest</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>mytest2</servlet-name>
+    <servlet-class>mytest2</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>showAppList</servlet-name>
+    <servlet-class>showAppList</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>test</servlet-name>
+    <servlet-class>test</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ttt</servlet-name>
+    <servlet-class>ttt</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>test1</servlet-name>
+    <servlet-class>test1</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>appSetting</servlet-name>
+    <servlet-class>appSetting</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>userCenter</servlet-name>
+    <servlet-class>userCenter</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>updateUser</servlet-name>
+    <servlet-class>updateUser</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>userCenter2</servlet-name>
+    <servlet-class>userCenter2</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>updatePassword</servlet-name>
+    <servlet-class>updatePassword</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>updatePassword1</servlet-name>
+    <servlet-class>updatePassword1</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>messageDetail</servlet-name>
+    <servlet-class>messageDetail</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>messageAjax</servlet-name>
+    <servlet-class>messageAjax</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>downloadFile</servlet-name>
+    <servlet-class>downloadFile</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>uploadTest</servlet-name>
+    <servlet-class>uploadTest</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UploadServlet</servlet-name>
+    <servlet-class>UploadServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>resetPassword</servlet-name>
+    <servlet-class>resetPassword</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>updateForgetPassword</servlet-name>
+    <servlet-class>updateForgetPassword</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>phoneCheck</servlet-name>
+    <servlet-class>phoneCheck</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>loginOut</servlet-name>
+    <servlet-class>loginOut</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>emailTest</servlet-name>
+    <servlet-class>emailTest</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>changePhone</servlet-name>
+    <servlet-class>changePhone</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>feedback</servlet-name>
+    <servlet-class>feedback</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>paging</servlet-name>
+    <servlet-class>paging</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>orderDetail</servlet-name>
+    <servlet-class>orderDetail</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>articlePage</servlet-name>
+    <servlet-class>articlePage</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>messagePush</servlet-name>
+    <servlet-class>messagePush</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>appDetail</servlet-name>
+    <servlet-class>appDetail</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>appDetail2</servlet-name>
+    <servlet-class>appDetail2</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>orderManager_backstage</servlet-name>
+    <servlet-class>orderManager_backstage</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>testResult</servlet-name>
+    <servlet-class>testResult</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>orderManager1</servlet-name>
+    <servlet-class>orderManager1</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>updateOrder</servlet-name>
+    <servlet-class>updateOrder</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>deleteOrder</servlet-name>
+    <servlet-class>deleteOrder</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>deletesOrder</servlet-name>
+    <servlet-class>deletesOrder</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>mohu</servlet-name>
+    <servlet-class>mohu</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>searchInfo</servlet-name>
+    <servlet-class>searchInfo</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>allFeedBack</servlet-name>
+    <servlet-class>allFeedBack</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>feedBackDetail</servlet-name>
+    <servlet-class>feedBackDetail</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>feedBackComplete</servlet-name>
+    <servlet-class>feedBackComplete</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>downloadApp</servlet-name>
+    <servlet-class>downloadApp</servlet-class>
+  </servlet>
+
+   <servlet>
+
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>manager_upload</servlet-name>
+    <servlet-class>manager_upload</servlet-class>
+  </servlet>
+
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>pro</servlet-name>
+    <servlet-class>pro</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>modifyMobile</servlet-name>
+    <servlet-class>modifyMobile</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>adminLogin</servlet-name>
+    <servlet-class>adminLogin</servlet-class>
+  </servlet>
+
+  
+ <filter>
+  <filter-name>loginFil</filter-name>
+  <filter-class>LoginFilter</filter-class>
+ </filter>
+ <filter-mapping>
+  <filter-name>loginFil</filter-name>
+  <url-pattern>*.jsp</url-pattern>
+ </filter-mapping>
+ 
+  <servlet-mapping>
+    <servlet-name>login</servlet-name>
+    <url-pattern>/login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>register</servlet-name>
+    <url-pattern>/register</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>forgetPassword</servlet-name>
+    <url-pattern>/forgetPassword</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>messageManagerment</servlet-name>
+    <url-pattern>/messageManagerment</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>orderManagement</servlet-name>
+    <url-pattern>/orderManagement</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>uploadApp</servlet-name>
+    <url-pattern>/uploadApp</url-pattern>
+  </servlet-mapping>
+	 <servlet-mapping>
+    <servlet-name>createTest</servlet-name>
+    <url-pattern>/createTest</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>createTest2</servlet-name>
+    <url-pattern>/createTest2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>appDescription</servlet-name>
+    <url-pattern>/appDescription</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>mytest</servlet-name>
+    <url-pattern>/mytest</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>mytest2</servlet-name>
+    <url-pattern>/mytest2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>showAppList</servlet-name>
+    <url-pattern>/showAppList</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>test</servlet-name>
+    <url-pattern>/test</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ttt</servlet-name>
+    <url-pattern>/ttt</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>test1</servlet-name>
+    <url-pattern>/test1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>appSetting</servlet-name>
+    <url-pattern>/appSetting</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>userCenter</servlet-name>
+    <url-pattern>/userCenter</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>updateUser</servlet-name>
+    <url-pattern>/updateUser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>userCenter2</servlet-name>
+    <url-pattern>/userCenter2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>updatePassword</servlet-name>
+    <url-pattern>/updatePassword</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>updatePassword1</servlet-name>
+    <url-pattern>/updatePassword1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>messageDetail</servlet-name>
+    <url-pattern>/messageDetail</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>messageAjax</servlet-name>
+    <url-pattern>/messageAjax</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>downloadFile</servlet-name>
+    <url-pattern>/downloadFile</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>uploadTest</servlet-name>
+    <url-pattern>/uploadTest</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UploadServlet</servlet-name>
+    <url-pattern>/UploadServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>resetPassword</servlet-name>
+    <url-pattern>/resetPassword</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>updateForgetPassword</servlet-name>
+    <url-pattern>/updateForgetPassword</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>phoneCheck</servlet-name>
+    <url-pattern>/phoneCheck</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>loginOut</servlet-name>
+    <url-pattern>/loginOut</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>emailTest</servlet-name>
+    <url-pattern>/emailTest</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>changePhone</servlet-name>
+    <url-pattern>/changePhone</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>feedback</servlet-name>
+    <url-pattern>/feedback</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>paging</servlet-name>
+    <url-pattern>/paging</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>orderDetail</servlet-name>
+    <url-pattern>/orderDetail</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>articlePage</servlet-name>
+    <url-pattern>/articlePage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>messagePush</servlet-name>
+    <url-pattern>/messagePush</url-pattern>
+  </servlet-mapping>
+	<servlet-mapping>
+    <servlet-name>appDetail</servlet-name>
+    <url-pattern>/appDetail</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>appDetail2</servlet-name>
+    <url-pattern>/appDetail2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>orderManager_backstage</servlet-name>
+    <url-pattern>/orderManager_backstage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>orderManager1</servlet-name>
+    <url-pattern>/orderManager1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>updateOrder</servlet-name>
+    <url-pattern>/updateOrder</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>deletesOrder</servlet-name>
+    <url-pattern>/deletesOrder</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>mohu</servlet-name>
+    <url-pattern>/mohu</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>searchInfo</servlet-name>
+    <url-pattern>/searchInfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>allFeedBack</servlet-name>
+    <url-pattern>/allFeedBack</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>feedBackDetail</servlet-name>
+    <url-pattern>/feedBackDetail</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>feedBackComplete</servlet-name>
+    <url-pattern>/feedBackComplete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>downloadApp</servlet-name>
+    <url-pattern>/downloadApp</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>testResult</servlet-name>
+    <url-pattern>/testResult</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>manager_upload</servlet-name>
+    <url-pattern>/manager_upload</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>pro</servlet-name>
+    <url-pattern>/pro</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>modifyMobile</servlet-name>
+    <url-pattern>/modifyMobile</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>adminLogin</servlet-name>
+    <url-pattern>/adminLogin</url-pattern>
+  </servlet-mapping>
+
+  
+</web-app>

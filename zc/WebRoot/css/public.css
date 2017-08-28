@@ -1,0 +1,100 @@
+@charset "utf-8";
+/*清除浮动*/
+.clearFix:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.clearFix{
+    zoom: 1;
+}
+/*导航栏*/
+.navbar-nav>li:hover{
+    background-color: #018a78;
+}
+.navbar-nav li .item-drop ,
+.naidi-header-top-container .item-drop {
+    margin: 0;
+    padding: 0;
+}
+.navbar-nav li .item-drop li,
+.naidi-header-top-container .item-drop li{
+    margin:0!important;
+}
+.navbar-nav>li a{
+    color: #000000!important;
+}
+.navbar-nav>li a:hover{
+    color: #ffffff!important;
+}
+.navbar-nav li .item-drop li a,
+.naidi-header-top-container .item-drop li a{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.navbar-nav li .item-drop li a:hover ,
+.naidi-header-top-container .item-drop li a:hover{
+    width: 100%;
+    display: block;
+    background-color:#018a78 ;
+}
+.navbar-nav li .badge{
+    background-color: #00cec2!important;
+}
+.navbar-nav>li:nth-child(2){
+    position:relative;
+}
+.navbar-nav li .message-center{
+    width: 286px;
+    padding: 20px 15px;
+    display: none;
+    position:absolute;
+    top: 50px;
+    left: -140px;
+    background-color: #e8e8e8;
+}
+.navbar-nav li .message-center p{
+    padding:0 15px;
+}
+.navbar-nav li .message-center p a{
+    float: right;
+}
+.navbar-nav li .message-center p a:hover{
+    text-decoration: none;
+    color: #018a78;
+}
+.navbar-nav li .message-center ul{
+    margin-top: 10px;
+    padding-left: 0;
+    -webkit-margin-collapse: separate;
+}
+.navbar-nav li .message-center ul li:nth-child(2){
+    margin-top: 20px;
+}
+.navbar-nav li .message-center ul li a{
+    display: block;
+    text-align: center;
+}
+.navbar-nav li .message-center ul li a:hover{
+    color: #ffffff!important;
+    text-decoration: none;
+}
+.navbar-nav li .message-center li{
+    list-style: none;
+}
+.navbar-nav>li:nth-child(2):hover .message-center{
+    display: block;
+}
+.navbar-brand img{
+    margin-top: -6px;
+}
+/*底部导航*/
+.login-footer{
+    background-color: #000000;
+}
+.login-footer div>p{
+    font-size:14px;
+    font-family: "微软雅黑";
+    color: #ffffff;
+    padding:18px 0;
+}

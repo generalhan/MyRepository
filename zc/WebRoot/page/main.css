@@ -1,0 +1,447 @@
+/* test-result */
+
+.main-color{
+	color: #018a78;
+}
+
+.test-result,
+.info-search,
+.download{
+	margin: 20px auto;
+	width: 750px;
+}
+.test-result form.testResult>div{
+	margin: 0 90px;
+}
+.test-result form input:not(#searchOrder){
+	border:none;
+	height:25px;
+}
+.download .searchDiv,
+.test-result .searchDiv,
+.info-search .searchDiv{
+	margin: 20px 90px;
+}
+.test-result .searchDiv label,
+.download .searchDiv label,
+.info-search .searchDiv select{
+	color: #018a78;
+	margin-right: 20px;
+	width:100px;
+	height:26px;
+}
+.download .searchDiv input[type='submit'],
+.test-result .searchDiv input[type='submit'],
+.test-result .searchDiv input[type='button'],
+.info-search .searchDiv input[type='submit']{
+	border-radius: 5px;
+	background-color: #018a78;
+	width: 70px;
+	color:#fff;
+	font-weight: bold;
+	cursor:pointer;
+}
+
+.download .inputSearch,
+.test-result .inputSearch,
+.info-search .inputSearch{
+	display: inline-block;
+}
+
+.info-search .searchDiv #searchOrder{
+	height:20px;
+}
+.info-search .searchDiv #btnOK{
+	vertical-align:middle;
+	width:50px;
+}
+.test-result .sure,
+.test-result .select{
+	display: none;
+
+}
+.test-result .table{
+	border: 1px solid #aaa;
+	width: 100%;
+	border-collapse: collapse;
+}
+.test-result .table thead{
+	font-weight: bold;
+	border-bottom: 1px solid #aaa !important;
+}
+.test-result .table thead td,
+.test-result .table tbody td{
+	text-align: center;
+	line-height: 40px;
+	font-size: 14px;
+}
+.test-result .table tbody tr{
+	border: 1px solid #aaa;
+}
+
+.test-result .report{
+	display: none;
+}
+/* end  test-result */
+/* info search   */
+.info-search{
+
+}
+.download .box,
+.info-search .box{
+	margin-top: 60px;
+	width: 100%;
+}
+.download .box,
+.info-search .box .wu{
+	text-align:center;
+	color:#cccccc;
+}
+.info-search .searchDiv>div{
+	width:360px;
+	margin:0 auto;
+}
+.download .box,
+.info-search .box .item{
+	border: 1px solid #aaa;
+	border-radius: 10px;
+	margin-top:20px;
+}
+.info-search .box h2{
+	font-size: 16px;
+	border-bottom: 1px solid #aaa;
+	margin-bottom: 0;
+	padding-left:10px;
+	padding-bottom: 13px;
+}
+.info-search .box h2 span{
+	display: inline-block;
+	width: 50%;
+}
+
+.info-search .box>div p{
+	margin-top: 40px;
+}
+.info-search .box .item{
+	overflow:hidden;
+}
+.info-search .box .item .con{
+	clear:both;
+}
+.info-search .box .item div p:last-child{
+	margin-bottom: 40px;
+}
+.info-search .box .item div p:first-child{
+	margin-top:40px;
+}
+.info-search .box-left{
+	border-right: 1px solid #aaa;
+	float:left;
+	width:47%;
+	padding-left:15px;
+}
+.info-search .box-right{
+	float:right;
+	width:47%;
+	padding-left:15px;
+}
+/* end info search */
+/* download app */
+.download .box{
+	padding: 40px;
+	color:#000000;
+}
+.download .box>div{
+
+}
+.download .box .label{
+	font-size: 16px;
+	font-family:"微软雅黑";
+	text-align: right;
+}
+.download .box p{
+	margin-bottom: 33px;
+}
+.download .box .detail{
+	vertical-align: top;
+}
+.download .box .detail-app{
+	display: inline-block;
+	width: 80%;
+	border: 1px solid #aaa;
+}
+.download .box a{
+	text-decoration: none;
+}
+.download .box textarea{
+	font-size:12px;
+	padding:5px;
+	font-family:"微软雅黑";
+	letter-spacing:2px;
+}
+.download .searchDiv>div{
+	width:360px;
+	margin:30px auto;
+}
+.download .box textarea{
+	resize:none;
+}
+/* feedback */
+.feed-back table{
+	border: 1px solid #aaa;
+	border-collapse: collapse;
+	width: 700px;
+	margin:20px auto;
+}
+.feed-back table thead tr{
+	background-color:#018a78;
+	color:#ffffff;
+}
+.feed-back table thead tr,
+.feed-back table tbody tr{
+	border-bottom: 1px solid #aaa;
+}
+.feed-back table thead td,
+.feed-back table tbody td{
+	width: 20%;
+	text-align: center;
+	padding: 20px 0;
+}
+.feed-back table tbody .con{
+	width:174px;
+	text-overflow: ellipsis; 
+	white-space: nowrap; 
+	overflow: hidden; 
+}
+
+.feed-back .btn1,
+.feed-back .btn2{
+	display: inline-block;
+	padding: 5px 8px;
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: #018a78;
+    color: #fff;
+    cursor:pointer;
+    text-decoration:none;
+}
+/* order manager*/
+.order-manager form div{
+	width: 600px;
+	margin:20px auto;
+}
+.order-manager form div .btnSearch{
+	float: right;
+}
+.order-manager #table{
+	border: 1px solid #aaa;
+	border-collapse: collapse;
+	width: 900px;
+	margin:20px auto;
+	border-top: none;
+}
+.order-manager #table caption{
+	text-align: left;
+	border: 1px solid #aaa;
+	border-collapse: collapse;
+	padding: 13px;
+	font-weight: bold;
+	border-bottom: 1px solid #000;
+	font-size: 21px;
+}
+.order-manager #table tr{
+	border-bottom: 1px solid #aaa;
+}
+.order-manager #table thead td{
+	font-weight: bold;
+}
+.order-manager #table tbody td:last-child{
+	padding-left:10px;
+	padding-right:10px;
+}
+.order-manager #table tbody td button:nth-of-type(1){
+	margin-right:5px;
+}
+.order-manager #table tbody td button{
+	width:60px;
+}
+.order-manager #table td{
+	padding: 12px 0;
+	text-align: center;
+	width: 16%;
+}
+
+.order-manager ul li,
+.test-result ul li{
+	display: inline-block;
+	/*margin:0 5px;*/
+}
+.order-manager ul,
+.test-result ul{
+	text-align: center;
+}
+.order-manager ul li a,
+.test-result ul li a{
+	text-decoration: none;
+	/*color:#000;*/
+}
+.order-manager ul li a:hover,
+.test-result ul li a:hover{
+	color:#018a78;
+}
+/* end order manager */
+/* message push */
+.message-push{
+	width: 748px;
+	border:1px solid #aaa;
+	margin:20px auto;
+}
+.message-push .contacts,
+.message-push .content{
+	display: inline-block;
+}
+.message-push .contacts{
+	vertical-align: top;
+	width: 200px;
+	
+}
+.message-push .contacts p{
+	overflow: hidden;	
+}
+.message-push .contacts p span:first-child{
+	font-size: 14px;
+	float: left;
+	padding-left: 12px;
+	padding-top: 2px;
+}
+.message-push .contacts p span:last-child{
+	font-size: 12px;
+	float: right;
+	padding-right: 24px;
+    padding-top: 4px;
+}
+.message-push .contacts .search-box{
+
+	height: 30px;
+	line-height: 30px;
+	border-radius: 5px;
+	display: inline-block;
+	margin:10px auto;
+	outline: 0;
+	text-indent: 1em;
+}
+.message-push .contacts .search-btn{
+	position: relative;
+	left: -25px;
+}
+.message-push .contacts dl{
+	margin-top: 0;
+	height: 600px;
+	overflow:scroll;
+	overflow-x:hidden
+}
+.message-push .contacts dt{
+	background-color: #f7f7f7;
+	padding:5px;
+}
+.message-push .contacts dd{
+	margin-left: 0;
+	padding-left: 8px;
+}
+.message-push .contacts ul{
+	padding-left: 0;
+	list-style-type: none;
+	margin:0;
+}
+.message-push .contacts a{
+	font-size: 10px;
+	text-decoration: none;
+}
+.message-push .contacts a:hover{
+	color:#018a78;
+}
+.message-push .content{
+	width: 530px;
+}
+.message-push .content p{
+
+}
+.message-push .content form{
+	padding: 15px;
+	border-top: 1px solid #aaa;
+}
+.message-push .content form div {
+	margin-top: 18px;
+}
+.message-push .content form div:last-child{
+	text-align: right;
+	padding-right: 25px;
+}
+.message-push .content form div label{
+	vertical-align: middle;
+	display: inline-block;
+	width: 50px;
+	text-align: left;
+	font-size: 14px;
+}
+.message-push .content form textarea{
+	resize:none;	
+}
+.page{
+	text-align:center;
+}
+.updateOrder h3{
+	text-align:center;
+}
+.updateOrder table{
+	border-collapse: collapse;
+	width:600px;
+	margin:50px auto;
+}
+.updateOrder table td{
+	border:1px solid #cccccc;
+	padding:3px 8px;
+	text-align:center;
+}
+.updateOrder table td:nth-of-type(odd){
+	width:25%;
+}
+.updateOrder table tr:last-child td{
+	border:none;
+}
+/*反馈详情页面*/
+
+.feedDetail h3{
+	text-align:center;
+}
+.feedDetail table{
+	width:600px;
+	margin:50px auto;
+	border-collapse:collapse;
+}
+.feedDetail table td:nth-of-type(odd){
+	width:25%;
+}
+.feedDetail table td{
+	border:1px solid #cccccc;
+	text-align:center;
+	padding:3px 8px;
+}
+.feedDetail table tr:last-child td{
+	border:none;
+}
+.feedDetail table tr:last-child input,
+.feedDetail table tr:last-child a{
+	width:60px;
+	height:25px;
+	line-height:25px;
+	display:inline-block;
+	background-color:#018a78;
+	border:none;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:14px;
+	text-decoration:none;
+	margin-top:10px;
+	margin-left:10px;
+}
